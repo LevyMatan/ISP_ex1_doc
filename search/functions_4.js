@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['main_295',['main',['../_father_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;Father.c'],['../_son_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;Son.c']]],
-  ['modify_5fcell_296',['modify_cell',['../forest__utils_8c.html#a4f50ea572603813ea3e902efda59119f',1,'modify_cell(const uint32_t u_cell_idx, const uint32_t u_forest_size, const char *p_forest_string_char):&#160;forest_utils.c'],['../forest__utils_8h.html#a4f50ea572603813ea3e902efda59119f',1,'modify_cell(const uint32_t u_cell_idx, const uint32_t u_forest_size, const char *p_forest_string_char):&#160;forest_utils.h']]]
+  ['print_5fforest_5fstatus_5fto_5ffile_78',['print_forest_status_to_file',['../_father_8c.html#a9665d1a2bf10d05d36bfbfdcc9dd0fb8',1,'print_forest_status_to_file(FILE *p_output_file, const char *p_forest_string_char, const int i_fires):&#160;Father.c'],['../_father_8h.html#a931b21980f8e974aaadd235d20d3540a',1,'print_forest_status_to_file(FILE *p_output_file, const char *a_forest_string, const int i_fires):&#160;Father.h']]]
 ];

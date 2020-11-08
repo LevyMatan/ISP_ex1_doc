@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['print_5fforest_5fstatus_5fto_5ffile_297',['print_forest_status_to_file',['../_father_8c.html#a9665d1a2bf10d05d36bfbfdcc9dd0fb8',1,'print_forest_status_to_file(FILE *p_output_file, const char *p_forest_string_char, const int i_fires):&#160;Father.c'],['../_father_8h.html#a931b21980f8e974aaadd235d20d3540a',1,'print_forest_status_to_file(FILE *p_output_file, const char *a_forest_string, const int i_fires):&#160;Father.h']]]
+  ['right_5fneighbor_79',['right_neighbor',['../forest__utils_8c.html#a58c9ce420379c8fed09c055208648c49',1,'right_neighbor(const uint32_t u_cell_idx, const uint32_t u_forest_size, const char *p_forest_string_char):&#160;forest_utils.c'],['../forest__utils_8h.html#a58c9ce420379c8fed09c055208648c49',1,'right_neighbor(const uint32_t u_cell_idx, const uint32_t u_forest_size, const char *p_forest_string_char):&#160;forest_utils.h']]]
 ];

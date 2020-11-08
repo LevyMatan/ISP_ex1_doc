@@ -1,0 +1,29 @@
+digraph "update_forest_status"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="update_forest_status",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="update_forest_status takes the current forest state and updates it –inplace– according to the followi..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="debug_forest_print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a300bdac54588ac8279de08ec3c8bc642",tooltip="print a forest when in debug mode"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modify_cell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a4f50ea572603813ea3e902efda59119f",tooltip="modify_cell Takes a cell in a given forest, and return the next state of this cell."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="left_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a4ec2b0d9c451aba74f348e513ceb2108",tooltip="left_neighbor returns the value of the left neighbor in a given forest string. If the cell has no suc..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lower_left_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a8a88c1cb78431ceaa22ef9751db12473",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="lower_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#aae3977e63760b3e19f7b7448ece32e63",tooltip="lower_neighbor returns the value of the lower neighbor in a given forest string. If the cell has no s..."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lower_right_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#ab9b7262f02cc5bde58b7092601e01a12",tooltip=" "];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="right_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a58c9ce420379c8fed09c055208648c49",tooltip="right_neighbor returns the value of the right neighbor in a given forest string. If the cell has no s..."];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="upper_left_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#af904765d4ab4ddf49a61d18c7b7acd6d",tooltip=" "];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="upper_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a6c45cd073dd570698f5e6f9fe11ee11f",tooltip="upper_neighbor returns the value of the upper neighbor in a given forest string. If the cell has no s..."];
+  Node3 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="upper_right_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a81f58424ed238940a36cee23c9218a66",tooltip=" "];
+}

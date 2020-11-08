@@ -1,5 +1,23 @@
 var searchData=
 [
-  ['debug_5fforest_5fprint_3',['debug_forest_print',['../forest__utils_8c.html#a300bdac54588ac8279de08ec3c8bc642',1,'debug_forest_print(const char *const p_forest_string_char, const uint32_t u_forest_size):&#160;forest_utils.c'],['../forest__utils_8h.html#a300bdac54588ac8279de08ec3c8bc642',1,'debug_forest_print(const char *const p_forest_string_char, const uint32_t u_forest_size):&#160;forest_utils.c']]],
-  ['debug_5fprint_4',['debug_print',['../common__types_8h.html#ac9e7326b4569847122754061b96c42d0',1,'debug_print():&#160;common_types.h'],['../son_8h.html#ac9e7326b4569847122754061b96c42d0',1,'debug_print():&#160;son.h']]]
+  ['error_5ffailed_5fto_5fallocate_5fmem_5ffor_5fcurrent_5fpath_5fe_4',['ERROR_FAILED_TO_ALLOCATE_MEM_FOR_CURRENT_PATH_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa312cf33d505fee251166b50074593440',1,'common_types.h']]],
+  ['error_5ffailed_5fto_5fallocate_5fmem_5ffor_5fson_5fpath_5fe_5',['ERROR_FAILED_TO_ALLOCATE_MEM_FOR_SON_PATH_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa59c0c73a9595f8ec464858fb7d9e4f8d',1,'common_types.h']]],
+  ['error_5ffailed_5fto_5fallocate_5fmemory_5fe_6',['ERROR_FAILED_TO_ALLOCATE_MEMORY_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa5ffa8953d8668e40c26f99ba884847b8',1,'common_types.h']]],
+  ['error_5ffailed_5fto_5fopen_5foutput_5ffile_5fe_7',['ERROR_FAILED_TO_OPEN_OUTPUT_FILE_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa643e3477c71bc2af6a88663e86bc0bbf',1,'common_types.h']]],
+  ['error_5ffailed_5fto_5fstart_5fson_5fprocess_5fe_8',['ERROR_FAILED_TO_START_SON_PROCESS_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570faa1537bff3395157fdaf6fc1f06a8f12e',1,'common_types.h']]],
+  ['error_5ffather_5fcouldnt_5fclose_5fson_5fprocess_5ffile_5fe_9',['ERROR_FATHER_COULDNT_CLOSE_SON_PROCESS_FILE_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fab30637e8486db94713cf8c31e6e5ce89',1,'common_types.h']]],
+  ['error_5ffather_5fcouldnt_5ffind_5fson_5fprocess_5fe_10',['ERROR_FATHER_COULDNT_FIND_SON_PROCESS_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fae3ad9fc0020e0671b07b1b4b92edfa0f',1,'common_types.h']]],
+  ['error_5ffather_5ffailed_5fto_5fallocate_5fmem_5ffor_5fforest_5fstring_5fe_11',['ERROR_FATHER_FAILED_TO_ALLOCATE_MEM_FOR_FOREST_STRING_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa6f9249a74ff2ccae915803dbf125a808',1,'common_types.h']]],
+  ['error_5ffather_5ffailed_5fto_5fopen_5finput_5ffile_5fe_12',['ERROR_FATHER_FAILED_TO_OPEN_INPUT_FILE_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa3e7e51555072c67b3de2e72bb6b5b758',1,'common_types.h']]],
+  ['error_5ffather_5fwrong_5fnumber_5fof_5finput_5fparameters_5fe_13',['ERROR_FATHER_WRONG_NUMBER_OF_INPUT_PARAMETERS_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa77972ce2fafa391dc8ad99a422b5d323',1,'common_types.h']]],
+  ['error_5ffprintf_5ffailed_5fe_14',['ERROR_FPRINTF_FAILED_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570faaeace2f5ea3403e6285c322369495c1e',1,'common_types.h']]],
+  ['error_5ffseek_5ffailed_5fe_15',['ERROR_FSEEK_FAILED_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa78aaa78cf4b9bb4b770f85ab5575e97e',1,'common_types.h']]],
+  ['error_5fftell_5ffailed_5fe_16',['ERROR_FTELL_FAILED_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa26208f56a04a40f93852c0186adf585d',1,'common_types.h']]],
+  ['error_5finvalid_5fparam_5fe_17',['ERROR_INVALID_PARAM_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa0b228f1b329d42635ff838109be43b6a',1,'common_types.h']]],
+  ['error_5fok_18',['ERROR_OK',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570faadeb5032c03491611646c1c64f7c0e0c',1,'common_types.h']]],
+  ['error_5fson_5fprocess_5ffailed_5fe_19',['ERROR_SON_PROCESS_FAILED_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fab335895b6ac00299ce334c107265b1d3',1,'common_types.h']]],
+  ['error_5fson_5fprocess_5fnot_5ffinished_5fcorrectly_5fe_20',['ERROR_SON_PROCESS_NOT_FINISHED_CORRECTLY_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa2d312f83f97bea3f09da4f5a6c42a608',1,'common_types.h']]],
+  ['error_5fson_5fprocess_5ftimed_5fout_5fe_21',['ERROR_SON_PROCESS_TIMED_OUT_E',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa89eed62822613822bd1b081677f4f34c',1,'common_types.h']]],
+  ['errors_5fe_22',['errors_e',['../common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570f',1,'errors_e():&#160;common_types.h'],['../common__types_8h.html#a4115a3a7a04f40de72aa0e0c892c0123',1,'errors_e():&#160;common_types.h']]],
+  ['ex1_23',['EX1',['../index.html',1,'']]]
 ];

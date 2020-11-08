@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['args_0',['args',['../namespace_father_and_son.html#a8187411843a6284ffb964ef3fb9fcab3',1,'FatherAndSon.args()'],['../namespacegenerate__testcase.html#a8187411843a6284ffb964ef3fb9fcab3',1,'generate_testcase.args()']]]
+  ['common_5ftypes_2eh_0',['common_types.h',['../common__types_8h.html',1,'']]],
+  ['count_5ffires_1',['count_fires',['../_son_8c.html#ad46111f044d941d744070e589bf49a76',1,'count_fires(const char forest_string[]):&#160;Son.c'],['../son_8h.html#ad46111f044d941d744070e589bf49a76',1,'count_fires(const char forest_string[]):&#160;son.h']]]
 ];
