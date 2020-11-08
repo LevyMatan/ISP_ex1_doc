@@ -161,20 +161,13 @@ Functions</h2></td></tr>
 <p>Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction, Father program will execute the following steps: </p>
 <ol type="1">
 <li>Parse the command line arguments &ndash; makes sure there is a VALID input. [Extra: Add -h, &ndash;help support flags to explain the usage]</li>
-<li>Open the input file given as an argument, the file is expected to be have a valid format. If opening the file fails, the program should exit with error status described under common_types and print the relevant error message. Read the following parameters from the file: forest_size, time_steps (= generations), forest_string.<ol type="a">
+<li>Open the input file given as an argument, the file is expected to be have a valid format. If opening the file fails, the program should exit with error status described under common_types and print the relevant error message. Read the following parameters from the file: forest_size, time_steps (= generations), forest_string.</li>
 <li>Create output.txt file (if already in the folder, overwrite). Handle any errors that can occur.</li>
-</ol>
+<li><p class="startli">Loop over time_steps:</p>
+<p class="startli">4.a Call Son program as a child process - it should count the number of fires in the forest.</p>
+<p class="startli">4.b Print forest string to output.txt. Print number of fires to output.txt.</p>
+<p class="startli">4.c Advance in time-step: meaning changing the forest status according to instructions logic.</p>
 </li>
-</ol>
-<p>Loop over time_steps: </p><pre class="fragment">  4. Call Son program as a child process - it should count the 
-  number of fires in the forest.
-
-  5. Print forest string to output.txt.
-  Print number of fires to output.txt.
-
-  6. Advance in time-step: meaning changing the forest status 
-  according to instructions logic.
-</pre><ol type="1">
 <li>Program cleanup: close and free all resources - files/allocated memory. Return 0 on success, otherwise ERROR code.</li>
 </ol>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -273,7 +266,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="comment">/*----------------------------------------------------------------</span></div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">    ==================================================================</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">    Loop over time-steps</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">    Step 4: Loop over time-steps</span></div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">    ==================================================================</span></div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment">    ----------------------------------------------------------------*/</span></div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">// Make sure the Son.exe (proccess) is located in the same folder as Father.exe, and is readable.</span></div>
@@ -289,7 +282,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="common__types_8h.html#ac9e7326b4569847122754061b96c42d0">debug_print</a>(<a class="code" href="_father_2hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a>);</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        </div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="comment">/*------------------------------------------------------------</span></div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">        Step 4: Call Son program as a child process - count fires</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">        Step 4.a: Call Son program as a child process - count fires</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">        ------------------------------------------------------------*/</span></div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordtype">int</span> i_fires = 0;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="comment">// TEMP: copy my_forest p_forest_string_wchar</span></div>
@@ -373,7 +366,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        }</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="comment">/*------------------------------------------------------------</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">        Step 5: Print current forest status to output file</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">        Step 4.b: Print current forest status to output file</span></div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment">        ------------------------------------------------------------*/</span></div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570faadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a> == e_status)</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        {</div>
@@ -381,7 +374,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        }</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        </div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="comment">/*------------------------------------------------------------</span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment">        Step 6: Update forest status</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment">        Step 4.c: Update forest status</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment">        ------------------------------------------------------------*/</span></div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570faadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a> == e_status)</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        {</div>
@@ -391,7 +384,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="comment">/*----------------------------------------------------------------</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment">    Step 7: Cleanup</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment">    Step 5: Cleanup</span></div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment">    ----------------------------------------------------------------*/</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">if</span> (p_forest_string_char)</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    {</div>
@@ -684,7 +677,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a9b202361092d846a3d112a1dfe46e1.html">Father</a></li><li class="navelem"><a class="el" href="father_8c.html">father.c</a></li>
-    <li class="footer">Generated on Sun Nov 8 2020 15:44:25 for Bluron by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Nov 8 2020 16:52:03 for Bluron by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>
