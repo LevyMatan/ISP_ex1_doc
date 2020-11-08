@@ -4,6 +4,7 @@ var _father_2hard_coded_data_8h =
     [ "FATHER_FOREST_STRING_ARG_INPUT_IDX", "_father_2hard_coded_data_8h.html#a95810e56fbbdbb9dc884fb7825784b73", null ],
     [ "FATHER_TREES_THRESHOLD", "_father_2hard_coded_data_8h.html#a1e20800f080d8ad5c2eef115a8be7c27", null ],
     [ "FIRE", "_father_2hard_coded_data_8h.html#adfe5c8e430e7dbb9c334d36ee161bb59", null ],
+    [ "FTELL_RETURN_CODE_FOR_FAILURE", "_father_2hard_coded_data_8h.html#a50d95b80ee50be98d41d5ebf5ffc26cc", null ],
     [ "GROUND", "_father_2hard_coded_data_8h.html#aa5109b7484893febdf204af9312ffef1", null ],
     [ "SEPERATOR_LINE_STRING", "_father_2hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491", null ],
     [ "SON_PROCESS_NAME_STRING", "_father_2hard_coded_data_8h.html#a18236d91937dedb6f5bf5138a36c4461", null ],

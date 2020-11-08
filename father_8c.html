@@ -97,7 +97,10 @@ $(document).ready(function(){initNavTree('father_8c.html',''); initResizable(); 
 <div class="title">father.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;Father.h&quot;</code><br />
+
+<p>Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction, Father program will execute the the steps described in <a class="el" href="father_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction,...">main()</a> documentation.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="father_8h_source.html">father.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for father.c:</div>
 <div class="dyncontent">
@@ -120,7 +123,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:a23d27bfaa32564bad87d5d6882c7536c"><td class="mdescLeft">&#160;</td><td class="mdescRight">make sure the child process is located where needed. returns OK if so, otherwise relevant error.  <a href="father_8c.html#a23d27bfaa32564bad87d5d6882c7536c">More...</a><br /></td></tr>
 <tr class="separator:a23d27bfaa32564bad87d5d6882c7536c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction, Father program will execute the the steps described in <a class="el" href="father_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction,...">main()</a> documentation. </p>
+<dl class="section author"><dt>Author</dt><dd>Matan Levy (<a href="#" onclick="location.href='mai'+'lto:'+'lev'+'ym'+'ata'+'nl'+'evy'+'@g'+'mai'+'l.'+'com'; return false;">levym<span style="display: none;">.nosp@m.</span>atan<span style="display: none;">.nosp@m.</span>levy@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a>) </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2020-11-03</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2020 </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="father_8c_source.html">father.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&nbsp;</a></span>main()</h2>
 
@@ -491,7 +502,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        }</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordtype">int</span> size_of_file = ftell(p_output_file);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">if</span> (FTELL_RETURN_CODE_FOR_FAILURE == size_of_file)</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="_father_2hard_coded_data_8h.html#a50d95b80ee50be98d41d5ebf5ffc26cc">FTELL_RETURN_CODE_FOR_FAILURE</a> == size_of_file)</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        {</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            printf(<span class="stringliteral">&quot;ERROR! ftell function failed. \nFile: %s, Line: %d\n&quot;</span>, __FILE__, __LINE__);</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            e_status = <a class="code" href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa26208f56a04a40f93852c0186adf585d">ERROR_FTELL_FAILED_E</a>;</div>
@@ -523,7 +534,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keywordflow">return</span> e_status;</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="common__types_8h_source.html#l00026">debug_print</a>, <a class="el" href="common__types_8h_source.html#l00051">ERROR_FPRINTF_FAILED_E</a>, <a class="el" href="common__types_8h_source.html#l00049">ERROR_FSEEK_FAILED_E</a>, <a class="el" href="common__types_8h_source.html#l00050">ERROR_FTELL_FAILED_E</a>, <a class="el" href="common__types_8h_source.html#l00048">ERROR_INVALID_PARAM_E</a>, and <a class="el" href="common__types_8h_source.html#l00035">ERROR_OK</a>.</p>
+<p class="reference">References <a class="el" href="common__types_8h_source.html#l00026">debug_print</a>, <a class="el" href="common__types_8h_source.html#l00051">ERROR_FPRINTF_FAILED_E</a>, <a class="el" href="common__types_8h_source.html#l00049">ERROR_FSEEK_FAILED_E</a>, <a class="el" href="common__types_8h_source.html#l00050">ERROR_FTELL_FAILED_E</a>, <a class="el" href="common__types_8h_source.html#l00048">ERROR_INVALID_PARAM_E</a>, <a class="el" href="common__types_8h_source.html#l00035">ERROR_OK</a>, and <a class="el" href="_father_2hard_coded_data_8h_source.html#l00026">FTELL_RETURN_CODE_FOR_FAILURE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="father_8c_source.html#l00053">main()</a>.</p>
 <div class="dynheader">
@@ -660,6 +671,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="acommon__types_8h_html_aac35e35f4b03d9618ca083d8f7e2570fa3e7e51555072c67b3de2e72bb6b5b758"><div class="ttname"><a href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa3e7e51555072c67b3de2e72bb6b5b758">ERROR_FATHER_FAILED_TO_OPEN_INPUT_FILE_E</a></div><div class="ttdeci">@ ERROR_FATHER_FAILED_TO_OPEN_INPUT_FILE_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00047">common_types.h:47</a></div></div>
 <div class="ttc" id="a_father_2hard_coded_data_8h_html_ab2d56456ecafd9e97ccb2060646afbe7"><div class="ttname"><a href="_father_2hard_coded_data_8h.html#ab2d56456ecafd9e97ccb2060646afbe7">SON_PROCESS_NAME_WITH_SPACE_STRING</a></div><div class="ttdeci">#define SON_PROCESS_NAME_WITH_SPACE_STRING</div><div class="ttdef"><b>Definition:</b> <a href="_father_2hard_coded_data_8h_source.html#l00018">Father/hardCodedData.h:18</a></div></div>
 <div class="ttc" id="acommon__types_8h_html_aac35e35f4b03d9618ca083d8f7e2570fa77972ce2fafa391dc8ad99a422b5d323"><div class="ttname"><a href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa77972ce2fafa391dc8ad99a422b5d323">ERROR_FATHER_WRONG_NUMBER_OF_INPUT_PARAMETERS_E</a></div><div class="ttdeci">@ ERROR_FATHER_WRONG_NUMBER_OF_INPUT_PARAMETERS_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00036">common_types.h:36</a></div></div>
+<div class="ttc" id="a_father_2hard_coded_data_8h_html_a50d95b80ee50be98d41d5ebf5ffc26cc"><div class="ttname"><a href="_father_2hard_coded_data_8h.html#a50d95b80ee50be98d41d5ebf5ffc26cc">FTELL_RETURN_CODE_FOR_FAILURE</a></div><div class="ttdeci">#define FTELL_RETURN_CODE_FOR_FAILURE</div><div class="ttdef"><b>Definition:</b> <a href="_father_2hard_coded_data_8h_source.html#l00026">Father/hardCodedData.h:26</a></div></div>
 <div class="ttc" id="acommon__types_8h_html_aac35e35f4b03d9618ca083d8f7e2570fa26208f56a04a40f93852c0186adf585d"><div class="ttname"><a href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa26208f56a04a40f93852c0186adf585d">ERROR_FTELL_FAILED_E</a></div><div class="ttdeci">@ ERROR_FTELL_FAILED_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00050">common_types.h:50</a></div></div>
 <div class="ttc" id="a_father_2hard_coded_data_8h_html_aebfff57ab6f2cc890a5592410bac98f3"><div class="ttname"><a href="_father_2hard_coded_data_8h.html#aebfff57ab6f2cc890a5592410bac98f3">SON_PROCESS_WAITING_TIMEOUT</a></div><div class="ttdeci">#define SON_PROCESS_WAITING_TIMEOUT</div><div class="ttdoc">Timeout when waiting for Son process 60 seconds.</div><div class="ttdef"><b>Definition:</b> <a href="_father_2hard_coded_data_8h_source.html#l00025">Father/hardCodedData.h:25</a></div></div>
 <div class="ttc" id="a_father_2hard_coded_data_8h_html_a18236d91937dedb6f5bf5138a36c4461"><div class="ttname"><a href="_father_2hard_coded_data_8h.html#a18236d91937dedb6f5bf5138a36c4461">SON_PROCESS_NAME_STRING</a></div><div class="ttdeci">#define SON_PROCESS_NAME_STRING</div><div class="ttdef"><b>Definition:</b> <a href="_father_2hard_coded_data_8h_source.html#l00016">Father/hardCodedData.h:16</a></div></div>
@@ -672,7 +684,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a9b202361092d846a3d112a1dfe46e1.html">Father</a></li><li class="navelem"><a class="el" href="father_8c.html">father.c</a></li>
-    <li class="footer">Generated on Sun Nov 8 2020 15:36:17 for Bluron by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Nov 8 2020 15:44:25 for Bluron by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

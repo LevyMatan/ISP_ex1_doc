@@ -6,5 +6,5 @@ digraph "son.h"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node1 [label="son.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Son header file."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="son.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$son_8c.html",tooltip=" "];
+  Node2 [label="son.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$son_8c.html",tooltip="Son program will count the number of 'F' characters which represent fire in the forest...."];
 }

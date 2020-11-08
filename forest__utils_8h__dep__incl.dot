@@ -6,7 +6,9 @@ digraph "forest_utils.h"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node1 [label="forest_utils.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This sub-module will handle all forest related functions."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="father.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$father_8h.html",tooltip=" "];
-  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="forest_utils.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html",tooltip="Holds all forest related functions. Allows to go through the forest and change each cell to the next ..."];
+  Node2 [label="father.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$father_8h.html",tooltip="Father header file."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="father.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$father_8c.html",tooltip="Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction,..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="forest_utils.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html",tooltip="Holds all forest related functions. Allows to go through the forest and change each cell to the next ..."];
 }
