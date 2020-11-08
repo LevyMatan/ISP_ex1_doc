@@ -9,5 +9,5 @@ digraph "modify_cell"
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="update_forest_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8h.html#ad9cfbc6bac2a7044a04581c17c378eec",tooltip="update_forest_status takes the current forest state and updates it –inplace– according to the followi..."];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_father_8c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip="Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction,..."];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$father_8c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip="Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction,..."];
 }

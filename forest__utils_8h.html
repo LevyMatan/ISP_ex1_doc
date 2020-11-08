@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('forest__utils_8h.html',''); initResiza
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_father_2_hard_coded_data_8h_source.html">HardCodedData.h</a>&quot;</code><br />
+<code>#include &quot;HardCodedData.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="common__types_8h_source.html">common_types.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for forest_utils.h:</div>
@@ -197,7 +197,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="forest__utils_8c_source.html#l00082">82</a> of file <a class="el" href="forest__utils_8c_source.html">forest_utils.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="common__types_8h.html#ac9e7326b4569847122754061b96c42d0">debug_print</a>(<a class="code" href="_father_2_hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="common__types_8h.html#ac9e7326b4569847122754061b96c42d0">debug_print</a>(<a class="code" href="_father_2hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a>);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">for</span>(uint32_t u_row_idx = 0; u_row_idx &lt; u_forest_size; u_row_idx++)</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">for</span>(uint32_t u_col_idx = 0; u_col_idx &lt; u_forest_size; u_col_idx++)</div>
@@ -206,10 +206,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="common__types_8h.html#ac9e7326b4569847122754061b96c42d0">debug_print</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="common__types_8h.html#ac9e7326b4569847122754061b96c42d0">debug_print</a>(<a class="code" href="_father_2_hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="common__types_8h.html#ac9e7326b4569847122754061b96c42d0">debug_print</a>(<a class="code" href="_father_2hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a>);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="common__types_8h_source.html#l00026">debug_print</a>, and <a class="el" href="_father_2_hard_coded_data_8h_source.html#l00015">SEPERATOR_LINE_STRING</a>.</p>
+<p class="reference">References <a class="el" href="common__types_8h_source.html#l00026">debug_print</a>, and <a class="el" href="_father_2hard_coded_data_8h_source.html#l00015">SEPERATOR_LINE_STRING</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="forest__utils_8c_source.html#l00040">update_forest_status()</a>.</p>
 <div class="dynheader">
@@ -630,7 +630,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="forest__utils_8c_source.html#l00082">debug_forest_print()</a>, <a class="el" href="common__types_8h_source.html#l00026">debug_print</a>, <a class="el" href="common__types_8h_source.html#l00037">ERROR_FAILED_TO_ALLOCATE_MEMORY_E</a>, <a class="el" href="common__types_8h_source.html#l00035">ERROR_OK</a>, and <a class="el" href="forest__utils_8c_source.html#l00107">modify_cell()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_father_8c_source.html#l00053">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="father_8c_source.html#l00053">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -806,13 +806,13 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aforest__utils_8c_html_a300bdac54588ac8279de08ec3c8bc642"><div class="ttname"><a href="forest__utils_8c.html#a300bdac54588ac8279de08ec3c8bc642">debug_forest_print</a></div><div class="ttdeci">void debug_forest_print(const char *const p_forest_string_char, const uint32_t u_forest_size)</div><div class="ttdoc">print a forest when in debug mode</div><div class="ttdef"><b>Definition:</b> <a href="forest__utils_8c_source.html#l00082">forest_utils.c:82</a></div></div>
 <div class="ttc" id="acommon__types_8h_html_aac35e35f4b03d9618ca083d8f7e2570fa5ffa8953d8668e40c26f99ba884847b8"><div class="ttname"><a href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570fa5ffa8953d8668e40c26f99ba884847b8">ERROR_FAILED_TO_ALLOCATE_MEMORY_E</a></div><div class="ttdeci">@ ERROR_FAILED_TO_ALLOCATE_MEMORY_E</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00037">common_types.h:37</a></div></div>
 <div class="ttc" id="aforest__utils_8c_html_a4f50ea572603813ea3e902efda59119f"><div class="ttname"><a href="forest__utils_8c.html#a4f50ea572603813ea3e902efda59119f">modify_cell</a></div><div class="ttdeci">static char modify_cell(const uint32_t u_cell_idx, const uint32_t u_forest_size, const char *p_forest_string_char)</div><div class="ttdoc">modify_cell Takes a cell in a given forest, and return the next state of this cell.</div><div class="ttdef"><b>Definition:</b> <a href="forest__utils_8c_source.html#l00107">forest_utils.c:107</a></div></div>
-<div class="ttc" id="a_father_2_hard_coded_data_8h_html_a5e6b72ac145b9efe5f0034b4a26a9491"><div class="ttname"><a href="_father_2_hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a></div><div class="ttdeci">#define SEPERATOR_LINE_STRING</div><div class="ttdef"><b>Definition:</b> <a href="_father_2_hard_coded_data_8h_source.html#l00015">HardCodedData.h:15</a></div></div>
+<div class="ttc" id="a_father_2hard_coded_data_8h_html_a5e6b72ac145b9efe5f0034b4a26a9491"><div class="ttname"><a href="_father_2hard_coded_data_8h.html#a5e6b72ac145b9efe5f0034b4a26a9491">SEPERATOR_LINE_STRING</a></div><div class="ttdeci">#define SEPERATOR_LINE_STRING</div><div class="ttdef"><b>Definition:</b> <a href="_father_2hard_coded_data_8h_source.html#l00015">hardCodedData.h:15</a></div></div>
 <div class="ttc" id="acommon__types_8h_html_aac35e35f4b03d9618ca083d8f7e2570faadeb5032c03491611646c1c64f7c0e0c"><div class="ttname"><a href="common__types_8h.html#aac35e35f4b03d9618ca083d8f7e2570faadeb5032c03491611646c1c64f7c0e0c">ERROR_OK</a></div><div class="ttdeci">@ ERROR_OK</div><div class="ttdef"><b>Definition:</b> <a href="common__types_8h_source.html#l00035">common_types.h:35</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a9b202361092d846a3d112a1dfe46e1.html">Father</a></li><li class="navelem"><a class="el" href="forest__utils_8h.html">forest_utils.h</a></li>
-    <li class="footer">Generated on Sun Nov 8 2020 13:12:04 for Bluron by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Nov 8 2020 13:47:37 for Bluron by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

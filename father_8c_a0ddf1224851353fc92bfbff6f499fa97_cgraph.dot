@@ -7,7 +7,7 @@ digraph "main"
   rankdir="LR";
   Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Father program is the entry program for Ex1. To accomplish the task described in EX1 instruction,..."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="print_forest_status\l_to_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_father_8c.html#a9665d1a2bf10d05d36bfbfdcc9dd0fb8",tooltip="print_forest_status_to_file will write a single line to the out file <FOREST_STRING> - <NUM_FIRES>  F..."];
+  Node2 [label="print_forest_status\l_to_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$father_8c.html#a9665d1a2bf10d05d36bfbfdcc9dd0fb8",tooltip="print_forest_status_to_file will write a single line to the out file <FOREST_STRING> - <NUM_FIRES>  F..."];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="update_forest_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a32d0613c25a154a4b440a484cfad93dc",tooltip="update_forest_status takes the current forest state and updates it –inplace– according to the followi..."];
   Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
@@ -31,5 +31,5 @@ digraph "main"
   Node5 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node13 [label="upper_right_neighbor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$forest__utils_8c.html#a81f58424ed238940a36cee23c9218a66",tooltip=" "];
   Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node14 [label="verify_son_process\l_file_exists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_father_8c.html#a23d27bfaa32564bad87d5d6882c7536c",tooltip="make sure the child process is located where needed. returns OK if so, otherwise relevant error."];
+  Node14 [label="verify_son_process\l_file_exists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$father_8c.html#a23d27bfaa32564bad87d5d6882c7536c",tooltip="make sure the child process is located where needed. returns OK if so, otherwise relevant error."];
 }

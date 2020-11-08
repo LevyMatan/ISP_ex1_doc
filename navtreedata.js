@@ -44,7 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_father_2_hard_coded_data_8h.html"
+"_father_2hard_coded_data_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

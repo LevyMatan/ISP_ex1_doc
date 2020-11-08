@@ -1,10 +1,10 @@
-digraph "/Users/matanlevy/learning/operating_systems/hw1/Ex1/Father/Father.h"
+digraph "/Users/matanlevy/learning/operating_systems/hw1/Ex1/Father/father.h"
 {
  // INTERACTIVE_SVG=YES
  // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="/Users/matanlevy/learning\l/operating_systems/hw1\l/Ex1/Father/Father.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Father header file."];
+  Node1 [label="/Users/matanlevy/learning\l/operating_systems/hw1\l/Ex1/Father/father.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
@@ -18,7 +18,7 @@ digraph "/Users/matanlevy/learning/operating_systems/hw1/Ex1/Father/Father.h"
   Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 [label="direct.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="HardCodedData.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_father_2_hard_coded_data_8h.html",tooltip="Father hard coded data. Instead of using magic numbers and string in the code, meanigful defined name..."];
+  Node8 [label="HardCodedData.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 [label="common_types.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common__types_8h.html",tooltip="Hold common defenitions and types."];
   Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
